@@ -29,7 +29,7 @@ function Header(props) {
         <Toolbar>
          
           <Typography variant="h6" color="inherit" className={classes.grow}>
-            WELCOME
+            WELCOME Maharajan
           </Typography>
           <Button color="inherit" onClick={()=>alert("Simple Image-gallery developed using pure React Js")}>About Us</Button>
         </Toolbar>
