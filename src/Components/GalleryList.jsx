@@ -8,7 +8,7 @@ class GalleryList extends Component{
           this.state={imageData:[]};
     }
     componentDidMount() {
-        axios.get('//www.splashbase.co/api/v1/images/search?query=laptop')
+        axios.get('https//www.splashbase.co/api/v1/images/search?query=laptop')
         .then(res => {
           //const posts = res.data.data.children.map(obj => obj.data);
           //console.log(res);
